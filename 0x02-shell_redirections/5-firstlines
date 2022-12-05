@@ -1,2 +1,2 @@
 #!/bin/bash
-cat /etc/passwd | head -n 10 > tenlines | cat tenlines
+head -n 10 /etc/passwd
